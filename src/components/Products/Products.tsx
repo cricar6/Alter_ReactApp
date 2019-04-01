@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Product from '../Product/Product';
+import Product from './Product/Product';
 import './Products.scss';
 
 class Products extends Component {
@@ -7,6 +7,8 @@ class Products extends Component {
     constructor (props : any) {
         super (props)
     }
+
+
 
     render() {
         return (

@@ -23,4 +23,6 @@ export class ProductStore {
         productLine: ''
     }
     
+    @observable products: any[] = [];
+    
 }
