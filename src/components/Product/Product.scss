@@ -1,0 +1,21 @@
+.product {
+    width: 200px;
+    margin: 40px 20px 0 20px;
+    .productImg {
+        background: #E5E5E5;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .productName {
+        width: 100%;
+        height: 30px;
+        text-align: center;
+        h3 {
+            font-size: 1.2em;
+            color: #C4C4C4;
+
+
+        }
+    }
+}
