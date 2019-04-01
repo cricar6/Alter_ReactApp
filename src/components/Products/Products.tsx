@@ -3,6 +3,11 @@ import Product from '../Product/Product';
 import './Products.scss';
 
 class Products extends Component {
+
+    constructor (props : any) {
+        super (props)
+    }
+
     render() {
         return (
             <div className="productContainer">
@@ -11,12 +16,6 @@ class Products extends Component {
                 <div className="products">
 
                     <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-                    <Product />
-
 
                 </div>
             </div>
